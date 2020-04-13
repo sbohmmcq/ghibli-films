@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gotu', sans-serif;
+}
+
+.progress {
+  background: red;
+  background-size: 100vw;
+  position: fixed;
+  text-align: center;
+  top: 1.5em;
+  left: 20%;
+  /*left: 0;*/
+  width: 0%;
+  height: 1em;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.block-zero {
+  display: block;
+  background: yellow;
+  width: 2em;
+  height: 2em;
+  position: fixed;
+  text-align: center;
+  top: 0.9em;
+  overflow: hidden;
+  left: 20%;
+}
+.block-one {
+  display: block;
+  background: yellow;
+  width: 2em;
+  height: 2em;
+  position: fixed;
+  text-align: center;
+  top: 0.9em;
+  overflow: hidden;
+  left: 35%;
+}
+
+.block-two {
+  display: block;
+  background: yellow;
+  width: 2em;
+  height: 2em;
+  position: fixed;
+  text-align: center;
+  top: 0.9em;
+  overflow: hidden;
+  left: 50%;
+}
+
+.block-three {
+  display: block;
+  background: yellow;
+  width: 2em;
+  height: 2em;
+  position: fixed;
+  text-align: center;
+  top: 0.9em;
+  overflow: hidden;
+  left: 65%;
+}
+
+.block-four {
+  display: block;
+  background: yellow;
+  width: 2em;
+  height: 2em;
+  position: fixed;
+  text-align: center;
+  top: 0.9em;
+  overflow: hidden;
+  left: 80%;
+}
+
+.still-img {
+  width: 100%;
+  text-align: center;
+}
+
+.slide {
+  width: auto;
+  height: auto;
+  padding: 1em;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  list-style: none;
+}
+
+.show {
+  position: relative;
+	display: flex;
+  justify-content: center;
+  /* width: 100vw;
+  height: 100vh;
+	width: 20em;
+	margin: auto; */
+}
+
+.current {
+  opacity: 1;
+}
+
+
+.btn  {
+	width: 90vw;
+	height: 6em;
+  border-radius: 1em;
+	background-color: #209bd4d5;
+	box-shadow: 0 0 0.5em rgba(0,0,0,0.3);
+	text-align: center;
+	line-height: 3;
+	position: absolute;
+	top: 880em;
+}
+
+#next {
+  list-style: none;
+}
+
+.imgslide {
+  width: 90vw;
+}
+
+.page {
+  width: 100%;
+  height: 100vh;
+}
+
+.name {
+  margin: 2em 0 1em;
+  font-size: 4.5em;
+}
+
+.tagline  {
+  margin: 1em 0 1em;
+  font-size: 3.5em;
+  color: #209bd4d5;
+}
+
+.page.title {
+  background-image: url(/img/j2LDHX0.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 50em) {
+  .structure{
+    margin: 0 12em;
+  }
+}
